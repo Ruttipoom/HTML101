@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>038Reservation Form</title>
+</head>
+<body>
+    <form method="post" >
+        <h1>Travel reservation form</h1>
+        <h2>*denotes mandotory</h2>
+        <p>Full name*:</p>
+            <input type="text" name="name" placeholder="enter your full name here" id="name">
+        <p>Email-address*:</p>
+            <input type="email" name="email" placeholder="enter your email address here" id="email">
+        <section class="package">
+            <label for="package"><h4>Select Tour Package*:</h4></label>
+                <select name="package" id="package">            
+                    <option value="Goa">Goa</option>
+                    <option value="Gob">Gob</option>
+                    <option value="Goc">Goc</option>
+                </select>
+        </section>
+        <p>Arrival date*:</p>
+            <label for="arrival">mm/dd/yyyy </label>
+            <input type="date" name="arrival" id="arrival">
+        <p>Number of persons*:</p>
+            <label for="person"></label>
+            <input type="number" name="person" id="person" step="1" min="0" placeholder="Number of persons">
+        <p>What would you like to avail*:</p>
+            <label for="boarding">Boarding</label>
+                <input type="checkbox" name="boarding" id="boarding">
+                    <br>
+            <label for="fooding">Fooding</label>
+                <input type="checkbox" name="fooding" id="fooding">
+                    <br>
+            <label for="sight seeing">Sight seeing</label>
+                <input type="checkbox" name="sight seeing" id="sight seeing">
+        <p>Discount Coupon code:</p>
+            <input type="text" name="discountcode" placeholder="enter discount code here" id="discountcode"?>
+                <br>
+                <br>
+            <button type="button">Submit</button>
+        <p>Terms and Conditions*:</p>
+            <input type="radio" name="terms" id="term">
+                <label for="term">I agree</label>
+            <input type="radio" name="terms" id="term">
+                <label for="term">I disagree</label>   
+                    <br>
+                    <br>
+            <button type="button">Complete reservation</button>
+            </form>
+ </body>
+ 
+</html>
