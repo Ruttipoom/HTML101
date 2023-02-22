@@ -1,0 +1,42 @@
+​p{
+    font-style: italic;
+}
+
+div, p, span{
+     font-size: 12pt;
+     font-family: 'Times New Roman', serif;
+}
+    
+
+.div1{
+    font-size: 23pt;
+    font-style: italic;
+}
+
+span{
+    background-color: wheat;
+    font-weight: bold;
+    }
+
+.span1{
+    background-color: rgb(130, 17, 223);
+}
+
+
+.span2{
+    background-color: rgb(17, 223, 79);
+}
+
+
+.span3{
+    background-color: rgb(238, 255, 1);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.body2{
+        background-image: url(https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FDesign%2F2022-04%2FTypes%20of%20Salmon%2FSalmon-Types-lead);
+}
